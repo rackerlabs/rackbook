@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book xmlns="http://docbook.org/ns/docbook" 
+        xmlns:xi="http://www.w3.org/2001/XInclude"
+        xmlns:xlink="http://www.w3.org/1999/xlink" 
+	version="5.0-extension RaxBook-2.0">
+	<info>
+		<title>Sample Title</title>
+		<copyright>
+			<year>20??-20??</year>
+		</copyright>
+		<releaseinfo>Release 1.0</releaseinfo>
+		<edition>Edition 01</edition>
+		<pubdate>March 2011</pubdate>
+		<productname>Some Product</productname>
+		<biblioid class="other" otherclass="invpartnumber">3EQ-10402-AAAA-PCZZA</biblioid>
+		<?legalnotice?>
+	</info>
+        <chapter>
+            <title>Chapter Title</title>
+						<para/>
+        </chapter>
+</book>

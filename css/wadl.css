@@ -1,0 +1,54 @@
+@namespace wadl url('http://wadl.dev.java.net/2009/02');
+@namespace rax url('http://docs.rackspace.com/api');
+@namespace oxy url('http://www.oxygenxml.com/extensions/author');
+@namespace oscommon url("http://docs.openstack.org/common/api/v1.0");
+@namespace atom url("http://www.w3.org/2005/Atom");
+
+wadl|*, rax|*, oscommon|*, atom|* {
+    display : block;
+    padding-left:0.5em;
+    white-space :pre;
+}
+
+wadl|*, rax|*, oscommon|*, atom|* {
+  white-space :normal;
+}
+
+wadl|text, rax|text, oscommon|text, atom|text {
+  white-space :pre;
+}
+
+wadl|*:before, rax|*:before, oscommon|*:before, atom|*:before, atom|link:before {
+    content : '<' name() attributes()'>';
+    color : rgb(0,0,150);
+}
+wadl|*, rax|*, oscommon|*, atom|* {
+    foldable:true;
+}
+wadl|*:after, rax|*:after, oscommon|*:after, atom|*:after {
+    content : '</' name() '>';
+    color : rgb(0,0,150);
+}
+
+/* XML comments */
+/* oxy|*:before { */
+/*     content : ''; */
+/* } */
+/* oxy|*:after { */
+/*     content : ''; */
+/* } */
+oxy|comment {
+    display:block !important;
+    background-color: #F5F5FF !important;
+    white-space:pre !important;
+    margin: 20px !important;
+    padding: 4px !important;
+    border-right :2px solid gray !important;
+    border-bottom :2px solid gray !important;
+    border-left :1px dotted gray !important;
+    border-top :1px dotted gray !important;
+    margin-right:1em !important;
+}
+wadl|* > oxy|comment, wadl|*, rax|* > oxy|comment, rax|*, oscommon|* > oxy|comment, atom|* > oxy|comment {
+    display:block !important;
+}

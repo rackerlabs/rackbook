@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+    xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+    xmlns:s="http://purl.oclc.org/dsdl/schematron"
+    ns="http://docs.rackspace.com/api/metadata"
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+
+	
+	<define name="rax.metadata">
+		<element name="metadata">
+			<element name="type">
+				<data type="token"/>
+			</element>
+			<element name="product">
+				<attribute name="version">
+					<data type="token"/>
+				</attribute>
+				<data type="token"/>
+			</element>
+			<element name="priority">
+				<data type="decimal"/>
+			</element>
+		</element>
+	</define>
+	<s:ns prefix="raxm" uri="http://docs.rackspace.com/api/metadata"/>
+
+	<s:pattern name="Constrain value of raxm:type">
+		<s:rule context="//raxm:type" >
+			<s:let name="types" value="'concept tutorial apiref apiref-mgmt'"/>
+			<s:assert test="contains(concat(' ',$types,' '), concat(' ',normalize-space(.),' '))">raxm:type must have a value of one of "<s:value-of select="$types"/>"</s:assert>
+		</s:rule>
+	</s:pattern>
+	<s:pattern name="Constrain value of raxm:product">
+		<s:rule context="//raxm:product" >
+			<s:let name="products" value="'servers cdb cm cbs files clb auth cdns'"/>
+			<s:assert test="contains(concat(' ', $products, ' '), concat(' ',normalize-space(.),' '))">raxm:product must have a value of one of "<s:value-of select="$products"/>"</s:assert>
+		</s:rule>
+	</s:pattern>
+	
+</grammar>

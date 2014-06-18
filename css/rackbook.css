@@ -1,0 +1,220 @@
+@import "docbook.css";
+@import "wadl.css";
+@namespace oxy url('http://www.oxygenxml.com/extensions/author');
+@namespace xi "http://www.w3.org/2001/XInclude";
+
+@namespace raxm "http://docs.rackspace.com/api/metadata";
+
+
+raxm|metadata {
+    display:block;
+    margin-left:1em;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    border: solid thin;
+    background-color: #FFFFCC;
+}
+
+raxm|metadata:before{
+    content:"Metadata: ";
+}
+
+raxm|type, raxm|product, raxm|priority {
+    display: list-item;
+    list-style-type: circle;
+    margin-left: 2em;
+
+}
+
+raxm|product, raxm|type, raxm|priority{
+    margin-top:0em;
+    margin-bottom:0em;
+}
+
+raxm|type:before {
+    content:"Type: ";
+}
+
+raxm|product:before {
+    content:"Product: ";
+}
+
+raxm|product:after {
+    content: " (" attr(version) ") ";
+}
+
+raxm|priority:before{
+    content: "Priority: ";
+}
+
+raxm|product:before, raxm|type:before, raxm|metadata:before, raxm|priority:before {
+    font-weight: bold;
+
+}
+
+/*raxm|priority:before{
+    font-weight: bold;
+    margin-left: 1em;
+    padding-left: .5em;
+}
+*/
+literallayout, screen, programlisting {
+	background-color: #F4F4F4;
+	padding: 6px;
+}
+
+para xi|include, entry xi|include, title xi|include {
+    display:inline !important;
+}
+
+para xi|include:before, entry xi|include:before, title xi|include:before {
+    content:"" !important;
+}
+
+menuchoice{
+    background-color: inherit !important;
+}
+
+/* /\* */
+/* Temporary bug fix until Oxygen 12.2: */
+/* *\/ */
+/* informaltable[tgroup], table[tgroup]{ */
+/* display:block; */
+/* } */
+/* /\* */
+/* End Temporary bug fix */
+/* *\/ */
+
+
+/* Display processing instructions as inline elements */
+oxy|processing-instruction {
+    display:inline !important;
+}
+
+/* Don't display processing instructions inside html tables due to Oxygen bug. Remove this when 12.3 comes out? */
+informaltable>oxy|processing-instruction, table>oxy|processing-instruction {
+    display:none !important;
+}
+
+
+/*
+===========================================
+    Rackspace Additions
+===========================================
+*/
+
+
+row[revisionflag="added"] entry, *[revisionflag="added"], *[revisionflag="added"] { background-color: 	#E6E6FA; }
+row[revisionflag="deleted"] entry,*[revisionflag="deleted"], *[revisionflag="deleted"] { 
+	text-decoration: line-through;
+    background-color: #FF7F7F; }
+row[revisionflag="changed"] entry,*[revisionflag="changed"], *[revisionflag="changed"] { background-color: #99ff99; }
+
+*[security="internal"], *[security="internal"] * {
+	color: #0000CC; 
+} 
+
+*[security="writeronly"], *[security="writeronly"] * {
+	color: red;
+	font-style: italic;
+}
+
+remark, *[role="highlight"], *[role="highlight"] *, *[security="reviewer"], *[security="reviewer"] * {
+	background-color: #FFFF99;
+}
+
+*[security="unconscious"] {
+	font-weight: 100;
+	color: #CCCCCC;
+	display: none;
+}
+
+remark {
+	color: #CC0000;
+}
+
+indexterm {
+	display: block;
+	font-size: smaller;
+	margin-left: 2em;
+}
+
+
+menuchoice>guimenu:after, menuchoice>guisubmenu:after {
+	content: "->";
+}
+
+info>* {
+display:block;
+}
+
+formalpara>title:after
+{
+	content: ". ";
+	}
+
+arg[choice="opt"]:before
+{
+	content: "["
+	}
+
+arg:before
+{
+	content: " "
+	}
+
+arg[choice="opt"]:after
+{
+	content: "]"
+	}
+	
+arg[rep="repeat"][choice="opt"]:after
+{
+	content: "...] "
+}
+
+arg[rep="repeat"]:after
+{
+	content: "... "
+}
+
+
+
+*[role="l10n"]:before{
+content: "L10N/I18N: ";
+}
+
+textobject{
+text-align: center;
+}
+
+textobject phrase{
+color: #FF4500;
+font-size: smaller;
+}
+
+textobject:before{
+content: "Alt Text: ";
+color: #FF4500;
+font-size: smaller;
+}
+
+tag{
+    display: inline;
+    font-family:monospace;
+}
+
+parameter[role="template"]{
+    font-family:monospace;
+    font-style: italic;
+}
+
+parameter[role="template"]:before
+{
+	content: "{"
+	}
+
+parameter[role="template"]:after
+{
+	content: "}"
+	}

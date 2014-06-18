@@ -1,0 +1,95 @@
+@import "folds.css";
+@import "links.css";
+
+@namespace oxy url('http://www.oxygenxml.com/extensions/author');
+@namespace xi "http://www.w3.org/2001/XInclude";
+
+xi|include:before {
+    content:"" !important;
+}
+
+xi|include{
+    display:inline !important;
+}
+
+oxy|processing-instruction {
+    display:none !important;
+}
+
+oxy|reference:before {
+  content: "" !important;
+}
+
+oxy|reference{
+    display: inline !important;
+}
+
+oxy|comment {
+    display:none !important;
+}
+
+
+* {
+	white-space: nowrap;
+	text-align: left;
+	font-family: "Arial";
+	font-style: normal;
+	font-weight: bold;
+	color: black;
+	margin-left: 10px;
+	display: none;
+}
+
+
+info{
+display: inline;
+}
+
+info>title, info>title *, title, title *, glossterm, glossterm *, question * {
+	display: inline;
+}
+
+
+book, part, chapter, share_chapter, article, section, share_section, simplesect, share_simplesect, glossary, preface, reference, appendix,share_appendix, share_procedure, glossentry, glossdiv, glossentry, qandaset, qandaentry, question {
+	display: block;
+}
+
+procedure>title, procedure>info>title, procedure>info>title *, procedure>title *{
+   color: green;
+}
+
+chapter>info>title, part>info>title, appendix>info>title, chapter>title, part>title, appendix>title
+{
+	color:#00589E;
+}
+	
+chapter>info>title *, part>info>title *, appendix>info>title *, chapter>title *, part>title *, appendix>title *
+{
+		color:#00589E;
+		display: inline;
+	
+	}
+	
+simplesect>title *, section>info>title *, section>title * {
+		display: inline;
+}
+	
+*[security="bjinternal"], *[security="bjinternal"] * {
+	color: #0000CC;
+} 
+
+*[security="writeronly"], *[security="writeronly"] * {
+	color: red;
+	font-style: italic;
+}
+
+*[security="reviewer"], *[security="reviewer"] * {
+	background-color: #FFFF99;
+}
+
+*[security="unconscious"] {
+	font-weight: 100;
+	color: #CCCCCC;
+	display: none;
+}
+
