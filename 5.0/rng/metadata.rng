@@ -30,11 +30,5 @@
 			<s:assert test="contains(concat(' ',$types,' '), concat(' ',normalize-space(.),' '))">raxm:type must have a value of one of "<s:value-of select="$types"/>"</s:assert>
 		</s:rule>
 	</s:pattern>
-	<s:pattern name="Constrain value of raxm:product">
-		<s:rule context="//raxm:product" >
-			<s:let name="products" value="'servers cdb cm cbs files clb auth cdns'"/>
-			<s:assert test="contains(concat(' ', $products, ' '), concat(' ',normalize-space(.),' '))">raxm:product must have a value of one of "<s:value-of select="$products"/>"</s:assert>
-		</s:rule>
-	</s:pattern>
 	
 </grammar>
