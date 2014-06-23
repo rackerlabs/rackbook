@@ -215,6 +215,11 @@ http://www.ascc.net/xml/schematron -->
     </s:rule>
   </s:pattern>
   
+  <s:pattern name="The pubdate element must be in the format YYYY-MM-DD">
+    <s:rule context="//db:pubdate|//db:date">
+      <s:assert test="matches(. , '^(19|20)\d\d([-])(0[1-9]|1[012])\2(0[1-9]|[12][0-9]|3[01])$') or normalize-space(.) = ''">The pudate element must be in the format YYYY-MM-DD, for example 2014-06-23. Found .</s:assert>
+    </s:rule>
+  </s:pattern>
   <s:pattern name="The targetptr and targetdoc attributes must not be null">
     <s:rule context="//db:olink">
       <s:assert test="not(normalize-space(@targetptr) = '') and not(normalize-space(@targetdoc) = '')">The targetptr and targetdoc attributes on olink must not be empty.</s:assert>
