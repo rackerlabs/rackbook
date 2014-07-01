@@ -1,0 +1,3668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serialized version="14.2" xml:space="preserve">
+	<map>
+		<entry>
+			<String>Diff options</String>
+			<Boolean>false</Boolean>
+		</entry>
+		<entry>
+			<String>Network connection settings</String>
+			<Boolean>false</Boolean>
+		</entry>
+		<entry>
+			<String>appearance.language.set</String>
+			<Boolean>true</Boolean>
+		</entry>
+		<entry>
+			<String>archive.descriptors.v12</String>
+			<archiveDescriptor-array/>
+		</entry>
+		<entry>
+			<String>autocheck.addons.enable</String>
+			<Boolean>true</Boolean>
+		</entry>
+		<entry>
+			<String>dita.map.tree.states.info</String>
+			<treeStateInfo-array/>
+		</entry>
+		<entry>
+			<String>document.types</String>
+			<documentTypeDescriptor-array/>
+		</entry>
+		<entry>
+			<String>document.types.order</String>
+			<documentTypeEntry-array>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/wadl-tools/wadl.framework/WADL</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/ant/ant.framework/ANT</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/dita/dita.framework/DITA</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/dita/ditamap.framework/DITA Map</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/dita/ditaval.framework/DITAVAL</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/docbook/docbook4.framework/DocBook 4</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/docbook/docbook5.framework/DocBook 5</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/docbook/targetset.framework/Docbook Targetset</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/ead/ead.framework/EAD</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/fo/fo.framework/FO</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/kml/kml.framework/KML</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/mathml/mathml.framework/MathML</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/ncx/ncx.framework/NCX</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/nvdl/nvdl.framework/NVDL</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/xml/xmlcatalog.framework/OASIS XML Catalog</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/ocf/ocf.framework/OCF</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/odf/odf.framework/ODF</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/ooxml/ooxml.framework/OOXML</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/opf/opf2.0.framework/OPF 2.0</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/opf/opf3.0.framework/OPF 3.0</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/relaxng/relaxng.framework/Relax NG</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/svg/svg.framework/SVG</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/xslt/saxon.framework/Saxon</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/schematron/schematron.framework/Schematron</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/schematron/schematron15.framework/Schematron 1.5</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/stratml/startml1.framework/StratML Part 1 (Strategic Plan)</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/stratml/startml2.framework/StratML Part 2 (Perfomance Plans and Reports)</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/tei/teip5odd.framework/TEI ODD</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/tei/teip4.framework/TEI P4 (deprecated)</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/tei/teip5.framework/TEI P5</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/widgets/widgets.framework/Widgets</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/xhtml/xhtml.framework/XHTML</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/xmlschema/xmlschema.framework/XML Schema</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/xmlspec/xmlspec.framework/XMLSpec</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/xproc/xproc.framework/XProc</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/xslt/xslt.framework/XSLT</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/xspec/xspec.framework/XSpec</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/samples/form-controls.framework/Form Controls (Sample)</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/samples/personal.framework/Personal (Sample)</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+				<documentTypeEntry>
+					<field name="documentTypeID">
+						<String>6/samples/travel-guide.framework/Travel Guide (Sample)</String>
+					</field>
+					<field name="enable">
+						<Boolean>true</Boolean>
+					</field>
+				</documentTypeEntry>
+			</documentTypeEntry-array>
+		</entry>
+		<entry>
+			<String>editor.format.whitespace</String>
+			<String-array>
+				<String>0009</String>
+				<String>000A</String>
+				<String>000D</String>
+				<String>0020</String>
+				<String>3000</String>
+			</String-array>
+		</entry>
+		<entry>
+			<String>editor.line.width</String>
+			<Integer>70</Integer>
+		</entry>
+		<entry>
+			<String>editor.states.info</String>
+			<editorStatesInfo-array>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/Users/david.cramer/rax/clouddocs-plugin-sample/src/docbkx/example.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/Users/david.cramer/rax/clouddocs-plugin-sample/target/example.xml-invalid-idrefs.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/Users/david.cramer/rax/clouddocs-plugin-sample/target/example.xml-invalid.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/Users/david.cramer/rax/published/docs-cloud-dns/src/main/resources/cdns-devguide.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/Users/david.cramer/rax/published/otter/docbook/src/docbkx/Untitled1.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/Users/david.cramer/rax/published/otter/docbook/src/docbkx/autoscale-devguide.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/Users/david.cramer/rax/published/docs-cloud-dns/target/cdns-devguide.xml-invalid-idrefs.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/Users/david.cramer/rax/standard-usage-schemas-myfork/src/main/xsl/Untitled2.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/Users/david.cramer/rax/standard-usage-schemas-myfork/src/docbkx/feeds-devguide.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/Users/david.cramer/rax/standard-usage-schemas-myfork/src/docbkx/api-operations.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/Users/david.cramer/rax/published/docs-cloud-files/src/docbkx/cf-getting-started.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/private/var/folders/0l/zz07wj192ddb63zzgnlxk8202gzw0z/T/src_docbkx_cf-getting-started_Before_6f1a9daa3c6a0593bcc253a12681e54d92a063a3.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/Users/david.cramer/rax/published/email-and-apps/src/docbkx/chapters/apiref-accountmgmt.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/Users/david.cramer/rax/published/email-and-apps/src/docbkx/chapters/apiref-exchange.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/Users/david.cramer/rax/published/email-and-apps/src/docbkx/chapters/apiref-domain.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/Users/david.cramer/rax/published/email-and-apps/src/docbkx/chapters/apiref-sharepoint.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/Users/david.cramer/rax/published/email-and-apps/src/docbkx/chapters/apiref-rackspace.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/Users/david.cramer/rax/published/email-and-apps/target/ea-devguide.xml-invalid.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/Users/david.cramer/rax/published/cloud-networks/shared/concepts/section_gs_auth.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/home/dcramer/Documents/rax/clouddocs-maven-plugin-stackforge/src/main/resources/cloud/Untitled1.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/home/dcramer/Documents/rax/published/reddwarf_lite-integration-masthalter/apidocs/target/cdb-devguide.xml-invalid.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/home/dcramer/Desktop/emailandapps/email-and-apps/src/docbkx/ea-devguide.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/home/dcramer/Desktop/emailandapps/email-and-apps/src/docbkx/chapters/apiref.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/home/dcramer/Desktop/emailandapps/apiref2.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/home/dcramer/Desktop/emailandapps/apiref.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/home/dcramer/Documents/rax/clouddocs-plugin-sample/src/docbkx/test.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/home/dcramer/openstack/operations-guide/doc/openstack-ops/target/bk_ops_guide.xml-invalid.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/home/dcramer/Documents/rax/published/cloud-keep/src/docbkx/ck-devguide.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/tmp/parttest/src/ch_arch_provision.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/tmp/parttest/src/ch_arch_cloud_controller.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/tmp/parttest/src/part_architecture.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/home/dcramer/Documents/rax/standard-usage-schemas-rackerlabs/core_xsd/usage.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/home/dcramer/Documents/rax/published/cloud-block-storage/target/cbs-devguide.xml-invalid-idrefs.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/home/dcramer/Documents/rax/published/otter/docbook/target/docbkx/autoscale-gettingstarted.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/home/dcramer/Documents/rax/published/atlas-lb-docbook-fresh/src/resources/clb-devguide.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/home/dcramer/Documents/rax/published/otter/docbook/target/docbkx/autoscale-devguide.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/home/dcramer/Documents/rax/published/otter/docbook/src/docbkx/autoscale-devguide.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/home/dcramer/Documents/rax/published/otter/docbook/src/docbkx/chapters/apiref.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/home/dcramer/Documents/rax/standard-usage-schemas-myfork/src/docbkx/feeds-devguide.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/home/dcramer/Documents/rax/standard-usage-schemas-myfork/src/docbkx/api-operations.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/var/www/temp/api/v1.0/xsd/server.xsd</String>
+					</field>
+					<field name="contentType">
+						<String>text/xsd</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/home/dcramer/Documents/rax/standard-usage-schemas-myfork/product_schema_def/xsd/productSchema.xsd</String>
+					</field>
+					<field name="contentType">
+						<String>text/xsd</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/home/dcramer/Documents/rax/standard-usage-schemas-rackerlabs/target/feeds-devguide.xml-invalid-idrefs.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/home/dcramer/Documents/rax/published/cloud-images/src/docbkx/chapters/api-operations-admin.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/home/dcramer/Documents/rax/published/cloud-images/src/docbkx/ci-devguide.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/home/dcramer/Documents/rax/standard-usage-schemas-myfork/target/generated-resources/xml/xslt/product_schemas_appendix.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/home/dcramer/Documents/rax/published/ele-dwcramer/docs/target/cm-releasenotes.xml-invalid.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/home/dcramer/Documents/rax/standard-usage-schemas-michaelsfork/src/docbkx/xslts/Untitled4.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/home/dcramer/Documents/rax/standard-usage-schemas-michaelsfork/src/docbkx/feeds-devguide.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+				<editorStatesInfo>
+					<field name="systemID">
+						<String>file:/home/dcramer/Documents/rax/published/otter/docbook/target/autoscale-devguide.xml-invalid-idrefs-2013-09-05T10:59:05.158-05:00.xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="pageID">
+						<String>Text</String>
+					</field>
+				</editorStatesInfo>
+			</editorStatesInfo-array>
+		</entry>
+		<entry>
+			<String>extensions.update.sites</String>
+			<String-array>
+				<String>http://www.oxygenxml.com/InstData/Addons/default/updateSite.xml</String>
+				<String>http://www.oxygenxml.com/InstData/Addons/optional/updateSite.xml</String>
+				<String>http://docs.rackspace.com/oxygen/updates/updates.xml</String>
+			</String-array>
+		</entry>
+		<entry>
+			<String>external.tool.cmds</String>
+			<xsltCustomEngines-array>
+				<xsltCustomEngines>
+					<field name="outEncoding">
+						<null/>
+					</field>
+					<field name="outContentType">
+						<String>text/plain</String>
+					</field>
+					<field name="errEncoding">
+						<null/>
+					</field>
+					<field name="cmd">
+						<String>"${frameworksDir}rackbook/generate-sources.sh"</String>
+					</field>
+					<field name="description">
+						<String></String>
+					</field>
+					<field name="name">
+						<String>generate-sources</String>
+					</field>
+					<field name="workingDirectory">
+						<String>${cfd}</String>
+					</field>
+					<field name="keyStroke">
+						<null/>
+					</field>
+					<field name="isBuiltin">
+						<Boolean>false</Boolean>
+					</field>
+				</xsltCustomEngines>
+			</xsltCustomEngines-array>
+		</entry>
+		<entry>
+			<String>files.types.association.v12</String>
+			<fileTypeAssociation-array>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>bat</String>
+					</field>
+					<field name="contentType">
+						<String>text/batch</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>bookmap</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>c</String>
+					</field>
+					<field name="contentType">
+						<String>text/c</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>c++</String>
+					</field>
+					<field name="contentType">
+						<String>text/cc</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>cc</String>
+					</field>
+					<field name="contentType">
+						<String>text/cc</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>cpp</String>
+					</field>
+					<field name="contentType">
+						<String>text/cc</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>css</String>
+					</field>
+					<field name="contentType">
+						<String>text/css</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>dita</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>ditamap</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>ditaval</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>dtd</String>
+					</field>
+					<field name="contentType">
+						<String>text/dtd</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>ent</String>
+					</field>
+					<field name="contentType">
+						<String>text/dtd</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>fo</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>htm</String>
+					</field>
+					<field name="contentType">
+						<String>text/html</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>html</String>
+					</field>
+					<field name="contentType">
+						<String>text/html</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>java</String>
+					</field>
+					<field name="contentType">
+						<String>text/java</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>jnlp</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>js</String>
+					</field>
+					<field name="contentType">
+						<String>text/javascript</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>json</String>
+					</field>
+					<field name="contentType">
+						<String>text/json</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>jsp</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>jspx</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>kml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>mathml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>mml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>mod</String>
+					</field>
+					<field name="contentType">
+						<String>text/dtd</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>ncx</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>nvdl</String>
+					</field>
+					<field name="contentType">
+						<String>text/nvdl</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>odd</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>opf</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>php</String>
+					</field>
+					<field name="contentType">
+						<String>text/php</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>pl</String>
+					</field>
+					<field name="contentType">
+						<String>text/perl</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>properties</String>
+					</field>
+					<field name="contentType">
+						<String>text/properties</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>props</String>
+					</field>
+					<field name="contentType">
+						<String>text/properties</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>py</String>
+					</field>
+					<field name="contentType">
+						<String>text/python</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>rdf</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>rnc</String>
+					</field>
+					<field name="contentType">
+						<String>text/rnc</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>rng</String>
+					</field>
+					<field name="contentType">
+						<String>text/rng</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>sch</String>
+					</field>
+					<field name="contentType">
+						<String>text/sch</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>sh</String>
+					</field>
+					<field name="contentType">
+						<String>text/shell</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>smi</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>smil</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>sql</String>
+					</field>
+					<field name="contentType">
+						<String>text/sql</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>ssml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>svg</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>text</String>
+					</field>
+					<field name="contentType">
+						<String>text/plain</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>txt</String>
+					</field>
+					<field name="contentType">
+						<String>text/plain</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>vxml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>wml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>wsdl</String>
+					</field>
+					<field name="contentType">
+						<String>text/wsdl</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>wssc</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>wssr</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>x3d</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>xhtml</String>
+					</field>
+					<field name="contentType">
+						<String>text/html</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>xml</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>xpl</String>
+					</field>
+					<field name="contentType">
+						<String>text/xproc</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>xproc</String>
+					</field>
+					<field name="contentType">
+						<String>text/xproc</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>xq</String>
+					</field>
+					<field name="contentType">
+						<String>text/xquery</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>xql</String>
+					</field>
+					<field name="contentType">
+						<String>text/xquery</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>xqm</String>
+					</field>
+					<field name="contentType">
+						<String>text/xquery</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>xquery</String>
+					</field>
+					<field name="contentType">
+						<String>text/xquery</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>xqy</String>
+					</field>
+					<field name="contentType">
+						<String>text/xquery</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>xsd</String>
+					</field>
+					<field name="contentType">
+						<String>text/xsd</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>xsl</String>
+					</field>
+					<field name="contentType">
+						<String>text/xsl</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>xslt</String>
+					</field>
+					<field name="contentType">
+						<String>text/xsl</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>xspec</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>xtm</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>xu</String>
+					</field>
+					<field name="contentType">
+						<String>text/xquery</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>true</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>wadl</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>false</Boolean>
+					</field>
+				</fileTypeAssociation>
+				<fileTypeAssociation>
+					<field name="extension">
+						<String>scala</String>
+					</field>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="defaultExtension">
+						<Boolean>false</Boolean>
+					</field>
+				</fileTypeAssociation>
+			</fileTypeAssociation-array>
+		</entry>
+		<entry>
+			<String>find.in.files.options</String>
+			<findInFilesOptions>
+				<field name="caseSensitive">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="wholeWords">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="searchStringIsRegexp">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="xmlFilter">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="xmlFindOptions">
+					<xmlFindOptions>
+						<field name="elementNames">
+							<Boolean>false</Boolean>
+						</field>
+						<field name="elementContents">
+							<Boolean>false</Boolean>
+						</field>
+						<field name="attributeNames">
+							<Boolean>false</Boolean>
+						</field>
+						<field name="attributeValues">
+							<Boolean>false</Boolean>
+						</field>
+						<field name="pis">
+							<Boolean>false</Boolean>
+						</field>
+						<field name="comments">
+							<Boolean>false</Boolean>
+						</field>
+						<field name="cdata">
+							<Boolean>false</Boolean>
+						</field>
+						<field name="doctype">
+							<Boolean>false</Boolean>
+						</field>
+						<field name="entities">
+							<Boolean>false</Boolean>
+						</field>
+					</xmlFindOptions>
+				</field>
+				<field name="backUp">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="backUpExtension">
+					<String>bak</String>
+				</field>
+				<field name="fileFilters">
+					<String-array>
+						<String>*</String>
+						<String>*.xml</String>
+						<String>*.xsl</String>
+						<String>*.wadl,*.xml</String>
+						<String>*.*</String>
+						<String>*.wadl</String>
+						<String>normalizeWadl*.xsl</String>
+						<String>*.html</String>
+						<String>*.dita,*.ditamap,*.ditaval,*.xml</String>
+						<String>*.html,*.xhtml,*.htm,*.jsp,*.asp,*.php,*.css,*.js</String>
+						<String>*.xsl,*.xslt</String>
+						<String>*.xq,*.xquery,*xqy</String>
+						<String>*.xsd,*.sch,*.rng,*.rnc,*.nvdl,*.dtd,*.mod,*.ent</String>
+					</String-array>
+				</field>
+				<field name="recurseSubdirs">
+					<Boolean>true</Boolean>
+				</field>
+				<field name="includeHiddenFiles">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="findHistory">
+					<String-array>
+						<String>href="</String>
+						<String>d1e6599a1310</String>
+						<String>d1e6874a1310</String>
+						<String>d1e5303a1310</String>
+						<String>d1e4802a1310</String>
+						<String>d1e3357a1310</String>
+						<String>d1e3149a1310</String>
+						<String>d1e1911a1310</String>
+						<String>d1e1697a1310</String>
+						<String>d1e972a1310</String>
+						<String>d1e259a1310</String>
+						<String>rax:id</String>
+						<String>builtForOpenStack</String>
+						<String>built-for-openstack.png</String>
+						<String>statustext</String>
+					</String-array>
+				</field>
+				<field name="xpathHistory">
+					<String-array/>
+				</field>
+				<field name="replaceHistory">
+					<String-array>
+						<String>href="../../wadl/email-apps.wadl#</String>
+						<String>p_emaileveryone</String>
+						<String>p_catchalladdress</String>
+						<String>p_alternate_domain_name</String>
+						<String>p_alternatedomains</String>
+						<String>p_domain_name</String>
+						<String>p_domains</String>
+						<String>p_admin_name</String>
+						<String>p_admins</String>
+						<String>p_customer_account_number</String>
+						<String>p_customers</String>
+						<String>contentServiceHost</String>
+						<String>feedbackServiceHost</String>
+						<String>emailapps-</String>
+						<String>emailapps</String>
+					</String-array>
+				</field>
+				<field name="multipleResults">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="specifiedPathHystory">
+					<String-array>
+						<String>/Users/david.cramer/rax/published/email-and-apps/src</String>
+						<String>/Users/david.cramer/rax/wadl-tools-dwcramer/xsl</String>
+						<String>/Users/david.cramer/rax/clouddocs-maven-plugin-stackforge/src/main/resources/cloud/webhelp</String>
+						<String>/home/dcramer/Documents/rax/clouddocs-maven-plugin-stackforge/src/main/resources/cloud/webhelp</String>
+						<String>/home/dcramer/Desktop/emailandapps/email-and-apps/src/docbkx</String>
+						<String>/home/dcramer/Documents/rax/published/barbican/docs/src/docbkx</String>
+						<String>/home/dcramer/Documents/rax/clouddocs-maven-plugin-stackforge/src/main/resources/cloud</String>
+						<String>/home/dcramer/Documents/rax/published/auth-git/auth-doc-2.0/src</String>
+						<String>/home/dcramer/Documents/rax/standard-usage-schemas-myfork</String>
+						<String>/home/dcramer/Documents/rax/wadl-tools/xsl</String>
+						<String>/home/dcramer/Documents/rax/rc-maven-cloud-docs/src/main/resources/cloud/webhelp</String>
+						<String>/home/dcramer/Documents/rax/published/ele/docs/src/docbkx</String>
+						<String>/home/dcramer/Documents/openstack/identity-api/openstack-identity-api/src/docbkx/</String>
+						<String>/home/dcramer/Documents/openstack/identity-api/openstack-identity-api/src/docbkx/common</String>
+						<String>/home/dcramer/Documents/rax/published/cloud-servers-2.x/src</String>
+						<String>/home/dcramer/Documents/rax/rc-maven-cloud-docs/src/main/resources/common</String>
+					</String-array>
+				</field>
+				<field name="includeArchives">
+					<Boolean>false</Boolean>
+				</field>
+			</findInFilesOptions>
+		</entry>
+		<entry>
+			<String>find.options</String>
+			<findOptions>
+				<field name="incremental">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="findHistory">
+					<String-array>
+						<String>*[@db:idfixup</String>
+						<String>$id/ancestor-or-self::*[@db:idfixup</String>
+						<String>fixup</String>
+						<String>cdb</String>
+						<String>linkscope</String>
+						<String>security</String>
+						<String>attlist</String>
+						<String>include</String>
+						<String>add-stop-chunking-pis</String>
+						<String>add-stop-chunking-pis-step</String>
+						<String>CheckReferences</String>
+						<String>in the set of</String>
+						<String>VersionDetails</String>
+						<String>linkend="clone_domains_parms_options"</String>
+						<String>xml:id="clone_domains_parms_options"</String>
+					</String-array>
+				</field>
+				<field name="replaceHistory">
+					<String-array>
+						<String>transclusion-fixup</String>
+						<String>required="false"</String>
+						<String>required="true"</String>
+						<String>docbook-xslt2-monolithic-html</String>
+						<String>../../wadl/email-apps.wadl#</String>
+						<String>href="../../wadl/email-apps.wadl#</String>
+						<String> </String>
+						<String>exResourceOptionsListRecipients-new-8</String>
+						<String>exResourceOptionsListRecipients-current-9</String>
+						<String>xsdxt:code</String>
+						<String>xsdxt:code-hidden</String>
+						<String>/</String>
+						<String>contentService</String>
+						<String>:</String>
+						<String>$targetHtmlContentDir,'/../'</String>
+					</String-array>
+				</field>
+				<field name="xpathHistory">
+					<String-array>
+						<String>@id</String>
+						<String>@path</String>
+						<String>//para</String>
+						<String>//@mediaType</String>
+						<String>//@name|//@path</String>
+						<String>//@name</String>
+						<String>//@path</String>
+						<String>//method/@id</String>
+						<String>//method/@*</String>
+						<String>//method</String>
+						<String>//table/caption</String>
+						<String>*[not(self::programlisting)]</String>
+					</String-array>
+				</field>
+				<field name="caseSensitive">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="wholeWords">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="searchStringIsRegexp">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="dotMatchesAll">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="wrapAround">
+					<Boolean>true</Boolean>
+				</field>
+				<field name="xmlFilter">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="xmlFindOptions">
+					<xmlFindOptions>
+						<field name="elementNames">
+							<Boolean>false</Boolean>
+						</field>
+						<field name="elementContents">
+							<Boolean>false</Boolean>
+						</field>
+						<field name="attributeNames">
+							<Boolean>false</Boolean>
+						</field>
+						<field name="attributeValues">
+							<Boolean>false</Boolean>
+						</field>
+						<field name="pis">
+							<Boolean>false</Boolean>
+						</field>
+						<field name="comments">
+							<Boolean>false</Boolean>
+						</field>
+						<field name="cdata">
+							<Boolean>false</Boolean>
+						</field>
+						<field name="doctype">
+							<Boolean>false</Boolean>
+						</field>
+						<field name="entities">
+							<Boolean>false</Boolean>
+						</field>
+					</xmlFindOptions>
+				</field>
+			</findOptions>
+		</entry>
+		<entry>
+			<String>first.run.v13.2</String>
+			<Boolean>false</Boolean>
+		</entry>
+		<entry>
+			<String>first.run.v14.0</String>
+			<Boolean>false</Boolean>
+		</entry>
+		<entry>
+			<String>first.run.v14.2</String>
+			<Boolean>false</Boolean>
+		</entry>
+		<entry>
+			<String>fold.model</String>
+			<fold-array>
+				<fold>
+					<field name="url">
+						<URL>file:/Users/david.cramer/rax/clouddocs-maven-plugin-stackforge/src/main/resources/rackspace-library.xpl</URL>
+					</field>
+					<field name="foldModel">
+						<String>p:library|1,p:declare-step|3;p:library|1,p:declare-step|4;p:library|1,p:declare-step|5;p:library|1,p:declare-step|8;p:library|1,p:declare-step|9;p:library|1,p:declare-step|10;p:library|1,p:declare-step|13</String>
+					</field>
+				</fold>
+				<fold>
+					<field name="url">
+						<URL>file:/Users/david.cramer/rax/clouddocs-maven-plugin-stackforge/src/main/resources/cloud/transclusion-fixup.xsl</URL>
+					</field>
+					<field name="foldModel">
+						<String>xsl:stylesheet|1,xsl:template|3,xsl:choose|1,xsl:when|1;xsl:stylesheet|1,xsl:template|3,xsl:choose|1,xsl:when|3;xsl:stylesheet|1,xsl:template|3,xsl:choose|1,xsl:when|4</String>
+					</field>
+				</fold>
+				<fold>
+					<field name="url">
+						<URL>file:/Users/david.cramer/rax/published/docs-cloud-dns/src/main/resources/wadl/dns.wadl</URL>
+					</field>
+					<field name="foldModel">
+						<String>application|1,method|10,response|1;application|1,method|10,response|2;application|1,method|15,request|1,representation|1;application|1,method|15,request|1,representation|3;application|1,method|15,request|1,representation|3,doc|1;application|1,method|15,request|1,representation|4;application|1,method|24,request|1,representation|1;application|1,method|25,request|1,representation|1;application|1,method|25,request|1,representation|3;application|1,method|26,request|1,representation|1;application|1,method|32,request|1</String>
+					</field>
+				</fold>
+				<fold>
+					<field name="url">
+						<URL>file:/Users/david.cramer/rax/published/email-and-apps/src/wadl/email-apps-munged1.wadl</URL>
+					</field>
+					<field name="foldModel">
+						<String>application|1,resources|1,resource|1,method|1</String>
+					</field>
+				</fold>
+				<fold>
+					<field name="url">
+						<URL>file:/Users/david.cramer/rax/clouddocs-maven-plugin-stackforge/src/main/resources/cloud/webhelp/webhelp-chunk-common.xsl</URL>
+					</field>
+					<field name="foldModel">
+						<String>xsl:stylesheet|1,xsl:template|1,html|1,body|1,xsl:choose|1,xsl:when|1,xsl:if|1</String>
+					</field>
+				</fold>
+				<fold>
+					<field name="url">
+						<URL>file:/home/dcramer/Documents/rax/clouddocs-maven-plugin-dwcramer/src/main/resources/rackspace-library.xpl</URL>
+					</field>
+					<field name="foldModel">
+						<String>p:library|1,p:declare-step|1;p:library|1,p:declare-step|2;p:library|1,p:declare-step|3;p:library|1,p:declare-step|4;p:library|1,p:declare-step|5;p:library|1,p:declare-step|6</String>
+					</field>
+				</fold>
+				<fold>
+					<field name="url">
+						<URL>file:/home/dcramer/Desktop/emailandapps/email-apps.wadl</URL>
+					</field>
+					<field name="foldModel">
+						<String>application|1,resources|1,resource|7;application|1,resources|1,resource|8,method|1,response|1;application|1,resources|1,resource|8,method|1,response|2;application|1,resources|1,resource|9;application|1,resources|1,resource|11;application|1,resources|1,resource|12;application|1,resources|1,resource|15,method|1,doc|1,table|1</String>
+					</field>
+				</fold>
+				<fold>
+					<field name="url">
+						<URL>file:/home/dcramer/Documents/rax/standard-usage-schemas-myfork/normalized/atom_hopper.wadl</URL>
+					</field>
+					<field name="foldModel">
+						<String>application|1,resources|1,resource|4,method|1;application|1,resources|1,resource|4,method|2;application|1,resources|1,resource|15,method|1;application|1,resources|1,resource|15,method|2;application|1,resources|1,resource|16,method|1</String>
+					</field>
+				</fold>
+				<fold>
+					<field name="url">
+						<URL>file:/home/dcramer/Desktop/json2plainparams/json_schema/create_scaling_group.xml</URL>
+					</field>
+					<field name="foldModel">
+						<String>root|1,properties|1,launchConfiguration|1,type|1,item|1,properties|1,args|1,properties|1</String>
+					</field>
+				</fold>
+				<fold>
+					<field name="url">
+						<URL>file:/home/dcramer/Desktop/json2plainparams/json_schema/create_one_or_more_scaling_policies.xml</URL>
+					</field>
+					<field name="foldModel">
+						<String>root|1,items|1,type|1</String>
+					</field>
+				</fold>
+				<fold>
+					<field name="url">
+						<URL>file:/home/dcramer/Desktop/json2plainparams/json_schema/update_launch_config.xml</URL>
+					</field>
+					<field name="foldModel">
+						<String>root|1,type|1,item|1,properties|1,args|1,properties|1</String>
+					</field>
+				</fold>
+				<fold>
+					<field name="url">
+						<URL>file:/home/dcramer/Desktop/json2plainparams/json_schema/update_one_scaling_policy.xml</URL>
+					</field>
+					<field name="foldModel">
+						<String>root|1,type|1;root|1,properties|1,args|1</String>
+					</field>
+				</fold>
+				<fold>
+					<field name="url">
+						<URL>file:/home/dcramer/openstack/api-site/api-ref/src/wadls/compute-api/src/wadl/normalized/os-compute-2.wadl</URL>
+					</field>
+					<field name="foldModel">
+						<String>application|1,resources|1,resource|1;application|1,resources|1,resource|2;application|1,resources|1,resource|3</String>
+					</field>
+				</fold>
+				<fold>
+					<field name="url">
+						<URL>file:/tmp/foo.xml</URL>
+					</field>
+					<field name="foldModel">
+						<String>root|1,resourceGroups|1,item|1,resources|1,item|1,parameters|1</String>
+					</field>
+				</fold>
+				<fold>
+					<field name="url">
+						<URL>file:/home/dcramer/Documents/rax/standard-usage-schemas-myfork/docs.xml</URL>
+					</field>
+					<field name="foldModel">
+						<String>c:directory|1,c:directory|1;c:directory|1,c:directory|2;c:directory|1,c:directory|3;c:directory|1,c:directory|4;c:directory|1,c:directory|5;c:directory|1,c:directory|7;c:directory|1,c:directory|8;c:directory|1,c:directory|9;c:directory|1,c:directory|10</String>
+					</field>
+				</fold>
+				<fold>
+					<field name="url">
+						<URL>file:/home/dcramer/Documents/rax/standard-usage-schemas-myfork/wadl/product.wadl</URL>
+					</field>
+					<field name="foldModel">
+						<String>application|1,resource_type|1,method|1,wadl:doc|1,example|1,informaltable|1;application|1,resource_type|1,method|1,wadl:doc|1,example|1,programlisting|1;application|1,resource_type|1,resource|1,method|1,wadl:doc|1,example|1,informaltable|1;application|1,resource_type|1,resource|1,method|1,wadl:doc|1,example|1,programlisting|1;application|1,resource_type|14,method|1;application|1,resource_type|14,resource|1,method|1;application|1,resource_type|15,method|1;application|1,resource_type|15,method|1,wadl:doc|1,example|1,informaltable|1;application|1,resource_type|15,resource|1,method|1;application|1,resource_type|16</String>
+					</field>
+				</fold>
+				<fold>
+					<field name="url">
+						<URL>file:/home/dcramer/Documents/rax/clouddocs-maven-plugin/src/main/resources/rackspace-library.xpl</URL>
+					</field>
+					<field name="foldModel">
+						<String>p:library|1,p:declare-step|2</String>
+					</field>
+				</fold>
+				<fold>
+					<field name="url">
+						<URL>file:/home/dcramer/Documents/rax/repose-beccasalinas/documentation/docbook/src/resources/repose-translation-deploy.xml</URL>
+					</field>
+					<field name="foldModel">
+						<String>book|1,chapter|1</String>
+					</field>
+				</fold>
+				<fold>
+					<field name="url">
+						<URL>file:/home/dcramer/Documents/rax/apiary2wadl/htmlsrc/autoscale-tidy.html</URL>
+					</field>
+					<field name="foldModel">
+						<String>html|1,body|1,div|1,div|1,div|2,div|2,section|1,hgroup|1;html|1,body|1,div|1,div|1,div|2,div|2,section|1,article|1;html|1,body|1,div|1,div|1,div|2,div|3</String>
+					</field>
+				</fold>
+				<fold>
+					<field name="url">
+						<URL>file:/home/dcramer/Documents/openstack/api-site/api-ref/src/docbkx/api-ref-resolved.xml</URL>
+					</field>
+					<field name="foldModel">
+						<String>book|1,chapter|2,resource|18,method|1;book|1,chapter|3,section|3,resource|1,method|2,request|1,representation|1;book|1,chapter|3,section|3,resource|1,method|2,request|1,representation|2;book|1,chapter|3,section|3,resource|2,method|1</String>
+					</field>
+				</fold>
+				<fold>
+					<field name="url">
+						<URL>file:/home/dcramer/Documents/rax/clouddocs-plugin-sample/src/wadl/normalized/example.wadl</URL>
+					</field>
+					<field name="foldModel">
+						<String>application|1,resources|1,resource|1;application|1,resources|1,resource|2;application|1,resources|1,resource|3;application|1,resources|1,resource|4;application|1,resources|1,resource|5;application|1,resources|1,resource|5,method|1;application|1,resources|1,resource|5,method|2</String>
+					</field>
+				</fold>
+				<fold>
+					<field name="url">
+						<URL>file:/home/dcramer/Documents/rax/rc-maven-cloud-docs/src/main/resources/cloud/webhelp/bookinfo.xsl</URL>
+					</field>
+					<field name="foldModel">
+						<String>xsl:stylesheet|1,xsl:template|1,xsl:result-document|1</String>
+					</field>
+				</fold>
+				<fold>
+					<field name="url">
+						<URL>file:/home/dcramer/Documents/rax/cloud-block-storage/src/docbkx/cbs-devguide.xml</URL>
+					</field>
+					<field name="foldModel">
+						<String>book|1,preface|1</String>
+					</field>
+				</fold>
+				<fold>
+					<field name="url">
+						<URL>file:/home/dcramer/Documents/rax/published/cloud-servers-2.x/src/cs-devguide.xml</URL>
+					</field>
+					<field name="foldModel">
+						<String>book|1,info|1,author|1;book|1,info|1,copyright|1;book|1,info|1,abstract|2</String>
+					</field>
+				</fold>
+				<fold>
+					<field name="url">
+						<URL>file:/home/dcramer/Documents/rax/rc-maven-cloud-docs/src/main/resources/cloud/war/docbook.xsl</URL>
+					</field>
+					<field name="foldModel">
+						<String>xsl:stylesheet|1,xsl:function|5;xsl:stylesheet|1,xsl:template|22,xsl:variable|3;xsl:stylesheet|1,xsl:template|22,xsl:variable|4;xsl:stylesheet|1,xsl:template|22,xsl:variable|6;xsl:stylesheet|1,xsl:template|22,xsl:variable|7;xsl:stylesheet|1,xsl:template|23</String>
+					</field>
+				</fold>
+				<fold>
+					<field name="url">
+						<URL>file:/home/dcramer/Documents/openstack/openstack-manuals/doc/src/docbkx/openstack-api-site/target/generated-resources/xml/xslt/os-compute-1.1.wadl</URL>
+					</field>
+					<field name="foldModel">
+						<String>wadl:application|1,rax:types|1;wadl:application|1,rax:responses|1;wadl:application|1,resources|1,resource|1;wadl:application|1,resources|1,resource|2;wadl:application|1,resources|1,resource|3;wadl:application|1,resources|1,resource|4;wadl:application|1,resources|1,resource|5;wadl:application|1,resources|1,resource|6</String>
+					</field>
+				</fold>
+				<fold>
+					<field name="url">
+						<URL>file:/home/dcramer/Documents/rax/published/cloud-servers-2x-upstream/target/docbkx/pdf/cs-releasenotes.fo</URL>
+					</field>
+					<field name="foldModel">
+						<String>fo:root|1,fo:layout-master-set|1;fo:root|1,fo:declarations|1;fo:root|1,fo:bookmark-tree|1;fo:root|1,fo:page-sequence|1;fo:root|1,fo:page-sequence|2;fo:root|1,fo:page-sequence|3;fo:root|1,fo:page-sequence|4;fo:root|1,fo:page-sequence|6,fo:static-content|1,fo:block|1,fo:table|1,fo:table-body|1;fo:root|1,fo:page-sequence|7;fo:root|1,fo:page-sequence|8;fo:root|1,fo:page-sequence|9;fo:root|1,fo:page-sequence|10;fo:root|1,fo:page-sequence|11;fo:root|1,fo:page-sequence|12;fo:root|1,fo:page-sequence|13;fo:root|1,fo:page-sequence|14</String>
+					</field>
+				</fold>
+				<fold>
+					<field name="url">
+						<URL>file:/home/dcramer/Documents/rax/published/dns-docs/pom.xml</URL>
+					</field>
+					<field name="foldModel">
+						<String>project|1,build|1,plugins|1,plugin|1;project|1,build|1,plugins|1,plugin|2</String>
+					</field>
+				</fold>
+				<fold>
+					<field name="url">
+						<URL>file:/home/dcramer/Documents/rax/newformat/reddwarf-mike-new/apidocs/src/resources/cdb-devguide.xml</URL>
+					</field>
+					<field name="foldModel">
+						<String>book|1,chapter|1;book|1,chapter|2;book|1,chapter|4</String>
+					</field>
+				</fold>
+				<fold>
+					<field name="url">
+						<URL>file:/home/dcramer/rax/rax-indexwar/src/main/webapp/legalnotice.html</URL>
+					</field>
+					<field name="foldModel">
+						<String>html|1,body|1,div|2,div|1,table|1,tbody|1,tr|1,td|1,div|1,div|1;html|1,body|1,div|2,div|1,table|1,tbody|1,tr|1,td|2,div|1</String>
+					</field>
+				</fold>
+			</fold-array>
+		</entry>
+		<entry>
+			<String>last.cleanup.date</String>
+			<String>6/19/14 9:23 PM</String>
+		</entry>
+		<entry>
+			<String>last.directory</String>
+			<File>/Users/david.cramer/rax/rackbook</File>
+		</entry>
+		<entry>
+			<String>last.project</String>
+			<URL>file:/Users/david.cramer/rax/clouddocs-maven-plugin-stackforge/clouddocs-plugin.xpr</URL>
+		</entry>
+		<entry>
+			<String>oxygen.on.top.frames.2</String>
+			<onTopFrames>
+				<field name="onTopFrames">
+					<serializableOrderedMap>
+						<entry>
+							<contentTypePageAssociation>
+								<field name="contentType">
+									<null/>
+								</field>
+								<field name="pageID">
+									<null/>
+								</field>
+							</contentTypePageAssociation>
+							<list/>
+						</entry>
+						<entry>
+							<contentTypePageAssociation>
+								<field name="contentType">
+									<String>text/css</String>
+								</field>
+								<field name="pageID">
+									<String>Text</String>
+								</field>
+							</contentTypePageAssociation>
+							<list>
+								<String>Outline</String>
+							</list>
+						</entry>
+						<entry>
+							<contentTypePageAssociation>
+								<field name="contentType">
+									<String>text/html</String>
+								</field>
+								<field name="pageID">
+									<String>Text</String>
+								</field>
+							</contentTypePageAssociation>
+							<list>
+								<String>Outline</String>
+								<String>Attributes</String>
+							</list>
+						</entry>
+						<entry>
+							<contentTypePageAssociation>
+								<field name="contentType">
+									<String>text/javascript</String>
+								</field>
+								<field name="pageID">
+									<String>Text</String>
+								</field>
+							</contentTypePageAssociation>
+							<list>
+								<String>Outline</String>
+							</list>
+						</entry>
+						<entry>
+							<contentTypePageAssociation>
+								<field name="contentType">
+									<String>text/json</String>
+								</field>
+								<field name="pageID">
+									<String>Text</String>
+								</field>
+							</contentTypePageAssociation>
+							<list>
+								<String>Outline</String>
+							</list>
+						</entry>
+						<entry>
+							<contentTypePageAssociation>
+								<field name="contentType">
+									<String>text/properties</String>
+								</field>
+								<field name="pageID">
+									<String>Text</String>
+								</field>
+							</contentTypePageAssociation>
+							<list/>
+						</entry>
+						<entry>
+							<contentTypePageAssociation>
+								<field name="contentType">
+									<String>text/rng</String>
+								</field>
+								<field name="pageID">
+									<String>Text</String>
+								</field>
+							</contentTypePageAssociation>
+							<list>
+								<String>Outline</String>
+								<String>Attributes</String>
+							</list>
+						</entry>
+						<entry>
+							<contentTypePageAssociation>
+								<field name="contentType">
+									<String>text/xml</String>
+								</field>
+								<field name="pageID">
+									<String>Author</String>
+								</field>
+							</contentTypePageAssociation>
+							<list>
+								<String>Outline</String>
+								<String>Attributes</String>
+							</list>
+						</entry>
+						<entry>
+							<contentTypePageAssociation>
+								<field name="contentType">
+									<String>text/xml</String>
+								</field>
+								<field name="pageID">
+									<String>Text</String>
+								</field>
+							</contentTypePageAssociation>
+							<list>
+								<String>Outline</String>
+							</list>
+						</entry>
+						<entry>
+							<contentTypePageAssociation>
+								<field name="contentType">
+									<String>text/xproc</String>
+								</field>
+								<field name="pageID">
+									<String>Author</String>
+								</field>
+							</contentTypePageAssociation>
+							<list>
+								<String>Outline</String>
+								<String>Attributes</String>
+							</list>
+						</entry>
+						<entry>
+							<contentTypePageAssociation>
+								<field name="contentType">
+									<String>text/xproc</String>
+								</field>
+								<field name="pageID">
+									<String>Grid</String>
+								</field>
+							</contentTypePageAssociation>
+							<list/>
+						</entry>
+						<entry>
+							<contentTypePageAssociation>
+								<field name="contentType">
+									<String>text/xproc</String>
+								</field>
+								<field name="pageID">
+									<String>Text</String>
+								</field>
+							</contentTypePageAssociation>
+							<list>
+								<String>Outline</String>
+								<String>Attributes</String>
+							</list>
+						</entry>
+						<entry>
+							<contentTypePageAssociation>
+								<field name="contentType">
+									<String>text/xsl</String>
+								</field>
+								<field name="pageID">
+									<String>Text</String>
+								</field>
+							</contentTypePageAssociation>
+							<list>
+								<String>Outline</String>
+								<String>XSLT_XQuery_Input</String>
+							</list>
+						</entry>
+					</serializableOrderedMap>
+				</field>
+			</onTopFrames>
+		</entry>
+		<entry>
+			<String>perspectives.layout.info</String>
+			<perspectivesInfo>
+				<field name="useFixedLayout">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="predefinedLayout">
+					<Boolean>true</Boolean>
+				</field>
+				<field name="predefinedLayoutName">
+					<String>Advanced</String>
+				</field>
+				<field name="specifiedLayoutPath">
+					<String></String>
+				</field>
+			</perspectivesInfo>
+		</entry>
+		<entry>
+			<String>project.marks.array</String>
+			<prjState-array>
+				<prjState>
+					<field name="projectURL">
+						<URL>file:/Users/david.cramer/rax/clouddocs-maven-plugin-stackforge/clouddocs-plugin.xpr</URL>
+					</field>
+					<field name="bookMarkLocations">
+						<map>
+							<entry>
+								<String>1</String>
+								<markLocation>
+									<field name="systemID">
+										<URL>file:/Users/david.cramer/rax/clouddocs-maven-plugin-stackforge/src/main/resources/rackspace-library.xpl</URL>
+									</field>
+									<field name="anchor">
+										<xmlAnchor>
+											<field name="indexPath">
+												<tokenIndexPath>
+													<field name="pathItems">
+														<pathItem-array>
+															<pathItem>
+																<field name="index">
+																	<Integer>1</Integer>
+																</field>
+																<field name="qName">
+																	<String>p:library</String>
+																</field>
+																<field name="attributeName">
+																	<null/>
+																</field>
+																<field name="attributeValue">
+																	<null/>
+																</field>
+																<field name="namespace">
+																	<null/>
+																</field>
+															</pathItem>
+															<pathItem>
+																<field name="index">
+																	<Integer>15</Integer>
+																</field>
+																<field name="qName">
+																	<String>p:declare-step</String>
+																</field>
+																<field name="attributeName">
+																	<null/>
+																</field>
+																<field name="attributeValue">
+																	<null/>
+																</field>
+																<field name="namespace">
+																	<null/>
+																</field>
+															</pathItem>
+														</pathItem-array>
+													</field>
+												</tokenIndexPath>
+											</field>
+											<field name="whitespaceBefore">
+												<Boolean>false</Boolean>
+											</field>
+											<field name="tokenPosition">
+												<Integer>2</Integer>
+											</field>
+											<field name="chCount">
+												<Integer>8</Integer>
+											</field>
+										</xmlAnchor>
+									</field>
+								</markLocation>
+							</entry>
+						</map>
+					</field>
+					<field name="breakPointLocations">
+						<markLocation-array/>
+					</field>
+					<field name="lastOpenedFiles">
+						<openedFileInfo-array>
+							<openedFileInfo>
+								<field name="systemID">
+									<URL>file:/Users/david.cramer/rax/rackbook/pom.xml</URL>
+								</field>
+								<field name="timeStamp">
+									<Long>1403205359000</Long>
+								</field>
+								<field name="selected">
+									<Boolean>false</Boolean>
+								</field>
+								<field name="caretPosition">
+									<Integer>863</Integer>
+								</field>
+								<field name="hInfo">
+									<scrollInfo>
+										<field name="value">
+											<Integer>0</Integer>
+										</field>
+										<field name="extent">
+											<Integer>0</Integer>
+										</field>
+										<field name="min">
+											<Integer>0</Integer>
+										</field>
+										<field name="max">
+											<Integer>1083</Integer>
+										</field>
+									</scrollInfo>
+								</field>
+								<field name="vInfo">
+									<scrollInfo>
+										<field name="value">
+											<Integer>0</Integer>
+										</field>
+										<field name="extent">
+											<Integer>0</Integer>
+										</field>
+										<field name="min">
+											<Integer>0</Integer>
+										</field>
+										<field name="max">
+											<Integer>688</Integer>
+										</field>
+									</scrollInfo>
+								</field>
+							</openedFileInfo>
+							<openedFileInfo>
+								<field name="systemID">
+									<URL>file:/Users/david.cramer/rax/rackbook/updates.xml</URL>
+								</field>
+								<field name="timeStamp">
+									<Long>1403215679000</Long>
+								</field>
+								<field name="selected">
+									<Boolean>true</Boolean>
+								</field>
+								<field name="caretPosition">
+									<Integer>39</Integer>
+								</field>
+								<field name="hInfo">
+									<scrollInfo>
+										<field name="value">
+											<Integer>0</Integer>
+										</field>
+										<field name="extent">
+											<Integer>1480</Integer>
+										</field>
+										<field name="min">
+											<Integer>0</Integer>
+										</field>
+										<field name="max">
+											<Integer>1480</Integer>
+										</field>
+									</scrollInfo>
+								</field>
+								<field name="vInfo">
+									<scrollInfo>
+										<field name="value">
+											<Integer>0</Integer>
+										</field>
+										<field name="extent">
+											<Integer>988</Integer>
+										</field>
+										<field name="min">
+											<Integer>0</Integer>
+										</field>
+										<field name="max">
+											<Integer>6240</Integer>
+										</field>
+									</scrollInfo>
+								</field>
+							</openedFileInfo>
+							<openedFileInfo>
+								<field name="systemID">
+									<URL>file:/Users/david.cramer/rax/wadl-tools-dwcramer/pom.xml</URL>
+								</field>
+								<field name="timeStamp">
+									<Long>1403205353000</Long>
+								</field>
+								<field name="selected">
+									<Boolean>false</Boolean>
+								</field>
+								<field name="caretPosition">
+									<Integer>4439</Integer>
+								</field>
+								<field name="hInfo">
+									<scrollInfo>
+										<field name="value">
+											<Integer>0</Integer>
+										</field>
+										<field name="extent">
+											<Integer>0</Integer>
+										</field>
+										<field name="min">
+											<Integer>0</Integer>
+										</field>
+										<field name="max">
+											<Integer>1503</Integer>
+										</field>
+									</scrollInfo>
+								</field>
+								<field name="vInfo">
+									<scrollInfo>
+										<field name="value">
+											<Integer>0</Integer>
+										</field>
+										<field name="extent">
+											<Integer>0</Integer>
+										</field>
+										<field name="min">
+											<Integer>0</Integer>
+										</field>
+										<field name="max">
+											<Integer>5888</Integer>
+										</field>
+									</scrollInfo>
+								</field>
+							</openedFileInfo>
+						</openedFileInfo-array>
+					</field>
+					<field name="lastDITAOpenedFiles">
+						<openedFileInfo-array/>
+					</field>
+					<field name="archiveURL">
+						<null/>
+					</field>
+					<field name="openFindResourcesHistory">
+						<String-array/>
+					</field>
+					<field name="searchComponentScope">
+						<null/>
+					</field>
+				</prjState>
+				<prjState>
+					<field name="projectURL">
+						<null/>
+					</field>
+					<field name="bookMarkLocations">
+						<map/>
+					</field>
+					<field name="breakPointLocations">
+						<markLocation-array/>
+					</field>
+					<field name="lastOpenedFiles">
+						<openedFileInfo-array/>
+					</field>
+					<field name="lastDITAOpenedFiles">
+						<openedFileInfo-array/>
+					</field>
+					<field name="archiveURL">
+						<null/>
+					</field>
+					<field name="openFindResourcesHistory">
+						<String-array/>
+					</field>
+					<field name="searchComponentScope">
+						<null/>
+					</field>
+				</prjState>
+				<prjState>
+					<field name="projectURL">
+						<URL>file:/Users/david.cramer/rax/wadl-tools-dwcramer/normalizeWadl.xpr</URL>
+					</field>
+					<field name="bookMarkLocations">
+						<map/>
+					</field>
+					<field name="breakPointLocations">
+						<markLocation-array/>
+					</field>
+					<field name="lastOpenedFiles">
+						<openedFileInfo-array/>
+					</field>
+					<field name="lastDITAOpenedFiles">
+						<openedFileInfo-array/>
+					</field>
+					<field name="archiveURL">
+						<null/>
+					</field>
+					<field name="openFindResourcesHistory">
+						<String-array/>
+					</field>
+					<field name="searchComponentScope">
+						<null/>
+					</field>
+				</prjState>
+				<prjState>
+					<field name="projectURL">
+						<URL>file:/home/dcramer/rax/clouddocs-maven-plugin-stackforge/clouddocs-plugin.xpr</URL>
+					</field>
+					<field name="bookMarkLocations">
+						<map/>
+					</field>
+					<field name="breakPointLocations">
+						<markLocation-array/>
+					</field>
+					<field name="lastOpenedFiles">
+						<openedFileInfo-array/>
+					</field>
+					<field name="lastDITAOpenedFiles">
+						<openedFileInfo-array/>
+					</field>
+					<field name="archiveURL">
+						<null/>
+					</field>
+					<field name="openFindResourcesHistory">
+						<String-array/>
+					</field>
+					<field name="searchComponentScope">
+						<null/>
+					</field>
+				</prjState>
+				<prjState>
+					<field name="projectURL">
+						<URL>file:/Users/david.cramer/Library/Application%20Support/OxygenXMLEditor/samples/sample.xpr</URL>
+					</field>
+					<field name="bookMarkLocations">
+						<map/>
+					</field>
+					<field name="breakPointLocations">
+						<markLocation-array/>
+					</field>
+					<field name="lastOpenedFiles">
+						<openedFileInfo-array/>
+					</field>
+					<field name="lastDITAOpenedFiles">
+						<openedFileInfo-array/>
+					</field>
+					<field name="archiveURL">
+						<null/>
+					</field>
+					<field name="openFindResourcesHistory">
+						<String-array/>
+					</field>
+					<field name="searchComponentScope">
+						<null/>
+					</field>
+				</prjState>
+			</prjState-array>
+		</entry>
+		<entry>
+			<String>project.tree.states.info</String>
+			<treeStateInfo-array>
+				<treeStateInfo>
+					<field name="systemID">
+						<URL>file:/Users/david.cramer/rax/clouddocs-maven-plugin-stackforge/clouddocs-plugin.xpr</URL>
+					</field>
+					<field name="currentSelectionPath">
+						<list>
+							<Integer>0</Integer>
+							<Integer>0</Integer>
+							<Integer>0</Integer>
+							<Integer>2</Integer>
+							<Integer>1</Integer>
+						</list>
+					</field>
+					<field name="expandedPaths">
+						<list>
+							<list>
+								<Integer>0</Integer>
+								<Integer>0</Integer>
+								<Integer>0</Integer>
+								<Integer>2</Integer>
+								<Integer>1</Integer>
+								<Integer>5</Integer>
+							</list>
+							<list>
+								<Integer>0</Integer>
+								<Integer>0</Integer>
+								<Integer>0</Integer>
+								<Integer>2</Integer>
+								<Integer>3</Integer>
+								<Integer>1</Integer>
+							</list>
+							<list>
+								<Integer>0</Integer>
+								<Integer>0</Integer>
+								<Integer>0</Integer>
+								<Integer>2</Integer>
+								<Integer>7</Integer>
+							</list>
+						</list>
+					</field>
+				</treeStateInfo>
+				<treeStateInfo>
+					<field name="systemID">
+						<URL>file:/Users/david.cramer/rax/wadl-tools-dwcramer/normalizeWadl.xpr</URL>
+					</field>
+					<field name="currentSelectionPath">
+						<list>
+							<Integer>0</Integer>
+							<Integer>5</Integer>
+							<Integer>4</Integer>
+						</list>
+					</field>
+					<field name="expandedPaths">
+						<list>
+							<list>
+								<Integer>0</Integer>
+								<Integer>5</Integer>
+							</list>
+						</list>
+					</field>
+				</treeStateInfo>
+				<treeStateInfo>
+					<field name="systemID">
+						<URL>file:/home/dcramer/rax/clouddocs-maven-plugin-stackforge/clouddocs-plugin.xpr</URL>
+					</field>
+					<field name="currentSelectionPath">
+						<list>
+							<Integer>0</Integer>
+						</list>
+					</field>
+					<field name="expandedPaths">
+						<list/>
+					</field>
+				</treeStateInfo>
+			</treeStateInfo-array>
+		</entry>
+		<entry>
+			<String>recent.editor.templates</String>
+			<recentlyUsedEditorTemplates>
+				<field name="recentlyUsed">
+					<list>
+						<simpleEditorTemplate>
+							<field name="description">
+								<String>XML Document</String>
+							</field>
+							<field name="extension">
+								<String>xml</String>
+							</field>
+							<field name="content">
+								<null/>
+							</field>
+							<field name="customizationPageID">
+								<String>xml_cutomization_page_id</String>
+							</field>
+						</simpleEditorTemplate>
+						<fileTemplate>
+							<field name="templateLocation">
+								<File>/Applications/oxygen/templates/Oxygen add-ons update site.xml</File>
+							</field>
+							<field name="sourceInformation">
+								<String>Global templates</String>
+							</field>
+							<field name="isFromFrameworks">
+								<Boolean>false</Boolean>
+							</field>
+							<field name="smallIconPath">
+								<String>Oxygen add-ons update siteSmall.gif</String>
+							</field>
+							<field name="bigIconPath">
+								<String>Oxygen add-ons update siteBig.png</String>
+							</field>
+						</fileTemplate>
+						<simpleEditorTemplate>
+							<field name="description">
+								<String>XSLT Stylesheet</String>
+							</field>
+							<field name="extension">
+								<String>xsl</String>
+							</field>
+							<field name="content">
+								<null/>
+							</field>
+							<field name="customizationPageID">
+								<String>xsl_cutomization_page_id</String>
+							</field>
+						</simpleEditorTemplate>
+						<fileTemplate>
+							<field name="templateLocation">
+								<File>/Applications/oxygen/frameworks/wadl-tools/templates/2009-wadl-spec.wadl</File>
+							</field>
+							<field name="sourceInformation">
+								<String>WADL</String>
+							</field>
+							<field name="isFromFrameworks">
+								<Boolean>true</Boolean>
+							</field>
+							<field name="smallIconPath">
+								<String>XmlIcon16.gif</String>
+							</field>
+							<field name="bigIconPath">
+								<String>2009-wadl-specBig.png</String>
+							</field>
+						</fileTemplate>
+						<simpleEditorTemplate>
+							<field name="description">
+								<String>JSON</String>
+							</field>
+							<field name="extension">
+								<String>json</String>
+							</field>
+							<field name="content">
+								<String>{
+  "key":"value"
+}</String>
+							</field>
+							<field name="customizationPageID">
+								<null/>
+							</field>
+						</simpleEditorTemplate>
+					</list>
+				</field>
+			</recentlyUsedEditorTemplates>
+		</entry>
+		<entry>
+			<String>scenario.associations</String>
+			<scenarioAssociation-array>
+				<scenarioAssociation>
+					<field name="url">
+						<String>file:/Applications/oxygen/frameworks/rackbook/pom.xml</String>
+					</field>
+					<field name="scenarioIds">
+						<list>
+							<String>6/ant/ant.framework/ANT/ANT</String>
+						</list>
+					</field>
+					<field name="scenarioTypes">
+						<list>
+							<String>ANT</String>
+						</list>
+					</field>
+				</scenarioAssociation>
+				<scenarioAssociation>
+					<field name="url">
+						<String>file:/home/dcramer/openstack/security-guide/target/docbkx/webhelp/local/autopdf/bk-security-guide-local.fo</String>
+					</field>
+					<field name="scenarioIds">
+						<list>
+							<String>6/fo/fo.framework/FO/FO PDF</String>
+						</list>
+					</field>
+					<field name="scenarioTypes">
+						<list>
+							<String>XSL</String>
+						</list>
+					</field>
+				</scenarioAssociation>
+				<scenarioAssociation>
+					<field name="url">
+						<String>file:/tmp/security-guide/docbook/target/docbkx/autopdf/book.fo</String>
+					</field>
+					<field name="scenarioIds">
+						<list>
+							<String>6/fo/fo.framework/FO/FO PDF</String>
+						</list>
+					</field>
+					<field name="scenarioTypes">
+						<list>
+							<String>XSL</String>
+						</list>
+					</field>
+				</scenarioAssociation>
+				<scenarioAssociation>
+					<field name="url">
+						<String>file:/home/dcramer/rax/published/ele/docs/src/docbkx/partials/build.xml</String>
+					</field>
+					<field name="scenarioIds">
+						<list>
+							<String>6/ant/ant.framework/ANT/ANT</String>
+						</list>
+					</field>
+					<field name="scenarioTypes">
+						<list>
+							<String>ANT</String>
+						</list>
+					</field>
+				</scenarioAssociation>
+			</scenarioAssociation-array>
+		</entry>
+		<entry>
+			<String>should.load.samples.project</String>
+			<Boolean>false</Boolean>
+		</entry>
+		<entry>
+			<String>spell.check.dictionaries.additional.folder</String>
+			<String></String>
+		</entry>
+		<entry>
+			<String>spell.check.learned.words.custom.folder</String>
+			<String></String>
+		</entry>
+		<entry>
+			<String>spell.check.options</String>
+			<spellCheckOptions>
+				<field name="automaticSpellCheck">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="automaticSpellCheckContentTypes">
+					<String-array>
+						<String>text/html</String>
+						<String>text/nvdl</String>
+						<String>text/plain</String>
+						<String>text/properties</String>
+						<String>text/rng</String>
+						<String>text/sch</String>
+						<String>text/wsdl</String>
+						<String>text/xml</String>
+						<String>text/xproc</String>
+						<String>text/xsd</String>
+						<String>text/xsl</String>
+					</String-array>
+				</field>
+				<field name="spellCheckInComments">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="spellCheckInAttributeValues">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="spellCheckInText">
+					<Boolean>true</Boolean>
+				</field>
+				<field name="spellCheckInCDATA">
+					<Boolean>true</Boolean>
+				</field>
+				<field name="language">
+					<String>en</String>
+				</field>
+				<field name="caseSensitive">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="ignoreMixedCase">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="ignoreAcronyms">
+					<Boolean>true</Boolean>
+				</field>
+				<field name="ignoreDigits">
+					<Boolean>true</Boolean>
+				</field>
+				<field name="ignoreDuplicates">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="ignoreURL">
+					<Boolean>true</Boolean>
+				</field>
+				<field name="checkPunctuation">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="allowCompound">
+					<Boolean>true</Boolean>
+				</field>
+				<field name="allowPrefixes">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="allowFileExtensions">
+					<Boolean>true</Boolean>
+				</field>
+				<field name="obeyLangAttributes">
+					<Boolean>true</Boolean>
+				</field>
+				<field name="langAttrMissingUseDefault">
+					<Boolean>true</Boolean>
+				</field>
+				<field name="ignoreSpellCheckElements">
+					<String-array>
+						<String>//programlisting</String>
+						<String>//screen</String>
+						<String>//literallayout</String>
+					</String-array>
+				</field>
+				<field name="preferredChecker">
+					<Integer>1</Integer>
+				</field>
+			</spellCheckOptions>
+		</entry>
+		<entry>
+			<String>sync.table.column.info</String>
+			<svnColumnInfo-array>
+				<svnColumnInfo>
+					<field name="columnID">
+						<String>name</String>
+					</field>
+					<field name="preferredWidth">
+						<Integer>346</Integer>
+					</field>
+					<field name="minimumWidth">
+						<Integer>150</Integer>
+					</field>
+					<field name="resizable">
+						<Boolean>true</Boolean>
+					</field>
+					<field name="hidden">
+						<Boolean>false</Boolean>
+					</field>
+				</svnColumnInfo>
+				<svnColumnInfo>
+					<field name="columnID">
+						<String>status</String>
+					</field>
+					<field name="preferredWidth">
+						<Integer>46</Integer>
+					</field>
+					<field name="minimumWidth">
+						<Integer>46</Integer>
+					</field>
+					<field name="resizable">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="hidden">
+						<Boolean>false</Boolean>
+					</field>
+				</svnColumnInfo>
+				<svnColumnInfo>
+					<field name="columnID">
+						<String>properties</String>
+					</field>
+					<field name="preferredWidth">
+						<Integer>46</Integer>
+					</field>
+					<field name="minimumWidth">
+						<Integer>46</Integer>
+					</field>
+					<field name="resizable">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="hidden">
+						<Boolean>false</Boolean>
+					</field>
+				</svnColumnInfo>
+				<svnColumnInfo>
+					<field name="columnID">
+						<String>date</String>
+					</field>
+					<field name="preferredWidth">
+						<Integer>80</Integer>
+					</field>
+					<field name="minimumWidth">
+						<Integer>80</Integer>
+					</field>
+					<field name="resizable">
+						<Boolean>true</Boolean>
+					</field>
+					<field name="hidden">
+						<Boolean>true</Boolean>
+					</field>
+				</svnColumnInfo>
+				<svnColumnInfo>
+					<field name="columnID">
+						<String>revision</String>
+					</field>
+					<field name="preferredWidth">
+						<Integer>70</Integer>
+					</field>
+					<field name="minimumWidth">
+						<Integer>50</Integer>
+					</field>
+					<field name="resizable">
+						<Boolean>true</Boolean>
+					</field>
+					<field name="hidden">
+						<Boolean>true</Boolean>
+					</field>
+				</svnColumnInfo>
+				<svnColumnInfo>
+					<field name="columnID">
+						<String>author</String>
+					</field>
+					<field name="preferredWidth">
+						<Integer>100</Integer>
+					</field>
+					<field name="minimumWidth">
+						<Integer>60</Integer>
+					</field>
+					<field name="resizable">
+						<Boolean>true</Boolean>
+					</field>
+					<field name="hidden">
+						<Boolean>true</Boolean>
+					</field>
+				</svnColumnInfo>
+				<svnColumnInfo>
+					<field name="columnID">
+						<String>remoteStatus</String>
+					</field>
+					<field name="preferredWidth">
+						<Integer>46</Integer>
+					</field>
+					<field name="minimumWidth">
+						<Integer>46</Integer>
+					</field>
+					<field name="resizable">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="hidden">
+						<Boolean>false</Boolean>
+					</field>
+				</svnColumnInfo>
+				<svnColumnInfo>
+					<field name="columnID">
+						<String>remoteProperties</String>
+					</field>
+					<field name="preferredWidth">
+						<Integer>46</Integer>
+					</field>
+					<field name="minimumWidth">
+						<Integer>46</Integer>
+					</field>
+					<field name="resizable">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="hidden">
+						<Boolean>false</Boolean>
+					</field>
+				</svnColumnInfo>
+				<svnColumnInfo>
+					<field name="columnID">
+						<String>remoteDate</String>
+					</field>
+					<field name="preferredWidth">
+						<Integer>100</Integer>
+					</field>
+					<field name="minimumWidth">
+						<Integer>80</Integer>
+					</field>
+					<field name="resizable">
+						<Boolean>true</Boolean>
+					</field>
+					<field name="hidden">
+						<Boolean>false</Boolean>
+					</field>
+				</svnColumnInfo>
+				<svnColumnInfo>
+					<field name="columnID">
+						<String>remoteRevision</String>
+					</field>
+					<field name="preferredWidth">
+						<Integer>70</Integer>
+					</field>
+					<field name="minimumWidth">
+						<Integer>50</Integer>
+					</field>
+					<field name="resizable">
+						<Boolean>true</Boolean>
+					</field>
+					<field name="hidden">
+						<Boolean>false</Boolean>
+					</field>
+				</svnColumnInfo>
+				<svnColumnInfo>
+					<field name="columnID">
+						<String>remoteAuthor</String>
+					</field>
+					<field name="preferredWidth">
+						<Integer>100</Integer>
+					</field>
+					<field name="minimumWidth">
+						<Integer>60</Integer>
+					</field>
+					<field name="resizable">
+						<Boolean>true</Boolean>
+					</field>
+					<field name="hidden">
+						<Boolean>false</Boolean>
+					</field>
+				</svnColumnInfo>
+				<svnColumnInfo>
+					<field name="columnID">
+						<String>localLock</String>
+					</field>
+					<field name="preferredWidth">
+						<Integer>46</Integer>
+					</field>
+					<field name="minimumWidth">
+						<Integer>46</Integer>
+					</field>
+					<field name="resizable">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="hidden">
+						<Boolean>false</Boolean>
+					</field>
+				</svnColumnInfo>
+				<svnColumnInfo>
+					<field name="columnID">
+						<String>size</String>
+					</field>
+					<field name="preferredWidth">
+						<Integer>70</Integer>
+					</field>
+					<field name="minimumWidth">
+						<Integer>50</Integer>
+					</field>
+					<field name="resizable">
+						<Boolean>true</Boolean>
+					</field>
+					<field name="hidden">
+						<Boolean>false</Boolean>
+					</field>
+				</svnColumnInfo>
+				<svnColumnInfo>
+					<field name="columnID">
+						<String>type</String>
+					</field>
+					<field name="preferredWidth">
+						<Integer>80</Integer>
+					</field>
+					<field name="minimumWidth">
+						<Integer>40</Integer>
+					</field>
+					<field name="resizable">
+						<Boolean>true</Boolean>
+					</field>
+					<field name="hidden">
+						<Boolean>false</Boolean>
+					</field>
+				</svnColumnInfo>
+			</svnColumnInfo-array>
+		</entry>
+		<entry>
+			<String>tipoftheday.count</String>
+			<Integer>1</Integer>
+		</entry>
+		<entry>
+			<String>tipoftheday.show</String>
+			<Boolean>false</Boolean>
+		</entry>
+		<entry>
+			<String>validation.scenarios</String>
+			<validationScenario-array/>
+		</entry>
+		<entry>
+			<String>version-control.svn.working-copies.items</String>
+			<workingCopy-array>
+				<workingCopy>
+					<field name="name">
+						<String>DocBook Open Repository</String>
+					</field>
+					<field name="path">
+						<String>/home/dcramer/docbook-open-repository/svn/trunk</String>
+					</field>
+					<field name="ignoreExternals">
+						<Boolean>false</Boolean>
+					</field>
+				</workingCopy>
+				<workingCopy>
+					<field name="name">
+						<String>Webhelp branch</String>
+					</field>
+					<field name="path">
+						<String>/home/dcramer/docbook-open-repository/svn/branches/webhelp</String>
+					</field>
+					<field name="ignoreExternals">
+						<Boolean>false</Boolean>
+					</field>
+				</workingCopy>
+			</workingCopy-array>
+		</entry>
+		<entry>
+			<String>version.checker.sessions.counter</String>
+			<Integer>2</Integer>
+		</entry>
+		<entry>
+			<String>versionControl.svn.lastUsedWC.item</String>
+			<workingCopy>
+				<field name="name">
+					<String>DocBook Open Repository</String>
+				</field>
+				<field name="path">
+					<String>/home/dcramer/docbook-open-repository/svn/trunk</String>
+				</field>
+				<field name="ignoreExternals">
+					<Boolean>false</Boolean>
+				</field>
+			</workingCopy>
+		</entry>
+		<entry>
+			<String>wc.table.column.info</String>
+			<svnColumnInfo-array>
+				<svnColumnInfo>
+					<field name="columnID">
+						<String>name</String>
+					</field>
+					<field name="preferredWidth">
+						<Integer>428</Integer>
+					</field>
+					<field name="minimumWidth">
+						<Integer>150</Integer>
+					</field>
+					<field name="resizable">
+						<Boolean>true</Boolean>
+					</field>
+					<field name="hidden">
+						<Boolean>false</Boolean>
+					</field>
+				</svnColumnInfo>
+				<svnColumnInfo>
+					<field name="columnID">
+						<String>status</String>
+					</field>
+					<field name="preferredWidth">
+						<Integer>46</Integer>
+					</field>
+					<field name="minimumWidth">
+						<Integer>46</Integer>
+					</field>
+					<field name="resizable">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="hidden">
+						<Boolean>false</Boolean>
+					</field>
+				</svnColumnInfo>
+				<svnColumnInfo>
+					<field name="columnID">
+						<String>properties</String>
+					</field>
+					<field name="preferredWidth">
+						<Integer>46</Integer>
+					</field>
+					<field name="minimumWidth">
+						<Integer>46</Integer>
+					</field>
+					<field name="resizable">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="hidden">
+						<Boolean>false</Boolean>
+					</field>
+				</svnColumnInfo>
+				<svnColumnInfo>
+					<field name="columnID">
+						<String>date</String>
+					</field>
+					<field name="preferredWidth">
+						<Integer>100</Integer>
+					</field>
+					<field name="minimumWidth">
+						<Integer>80</Integer>
+					</field>
+					<field name="resizable">
+						<Boolean>true</Boolean>
+					</field>
+					<field name="hidden">
+						<Boolean>false</Boolean>
+					</field>
+				</svnColumnInfo>
+				<svnColumnInfo>
+					<field name="columnID">
+						<String>revision</String>
+					</field>
+					<field name="preferredWidth">
+						<Integer>70</Integer>
+					</field>
+					<field name="minimumWidth">
+						<Integer>50</Integer>
+					</field>
+					<field name="resizable">
+						<Boolean>true</Boolean>
+					</field>
+					<field name="hidden">
+						<Boolean>false</Boolean>
+					</field>
+				</svnColumnInfo>
+				<svnColumnInfo>
+					<field name="columnID">
+						<String>author</String>
+					</field>
+					<field name="preferredWidth">
+						<Integer>100</Integer>
+					</field>
+					<field name="minimumWidth">
+						<Integer>60</Integer>
+					</field>
+					<field name="resizable">
+						<Boolean>true</Boolean>
+					</field>
+					<field name="hidden">
+						<Boolean>false</Boolean>
+					</field>
+				</svnColumnInfo>
+				<svnColumnInfo>
+					<field name="columnID">
+						<String>remoteStatus</String>
+					</field>
+					<field name="preferredWidth">
+						<Integer>46</Integer>
+					</field>
+					<field name="minimumWidth">
+						<Integer>46</Integer>
+					</field>
+					<field name="resizable">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="hidden">
+						<Boolean>false</Boolean>
+					</field>
+				</svnColumnInfo>
+				<svnColumnInfo>
+					<field name="columnID">
+						<String>remoteProperties</String>
+					</field>
+					<field name="preferredWidth">
+						<Integer>46</Integer>
+					</field>
+					<field name="minimumWidth">
+						<Integer>46</Integer>
+					</field>
+					<field name="resizable">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="hidden">
+						<Boolean>false</Boolean>
+					</field>
+				</svnColumnInfo>
+				<svnColumnInfo>
+					<field name="columnID">
+						<String>remoteDate</String>
+					</field>
+					<field name="preferredWidth">
+						<Integer>80</Integer>
+					</field>
+					<field name="minimumWidth">
+						<Integer>80</Integer>
+					</field>
+					<field name="resizable">
+						<Boolean>true</Boolean>
+					</field>
+					<field name="hidden">
+						<Boolean>true</Boolean>
+					</field>
+				</svnColumnInfo>
+				<svnColumnInfo>
+					<field name="columnID">
+						<String>remoteRevision</String>
+					</field>
+					<field name="preferredWidth">
+						<Integer>70</Integer>
+					</field>
+					<field name="minimumWidth">
+						<Integer>50</Integer>
+					</field>
+					<field name="resizable">
+						<Boolean>true</Boolean>
+					</field>
+					<field name="hidden">
+						<Boolean>true</Boolean>
+					</field>
+				</svnColumnInfo>
+				<svnColumnInfo>
+					<field name="columnID">
+						<String>remoteAuthor</String>
+					</field>
+					<field name="preferredWidth">
+						<Integer>100</Integer>
+					</field>
+					<field name="minimumWidth">
+						<Integer>60</Integer>
+					</field>
+					<field name="resizable">
+						<Boolean>true</Boolean>
+					</field>
+					<field name="hidden">
+						<Boolean>true</Boolean>
+					</field>
+				</svnColumnInfo>
+				<svnColumnInfo>
+					<field name="columnID">
+						<String>localLock</String>
+					</field>
+					<field name="preferredWidth">
+						<Integer>46</Integer>
+					</field>
+					<field name="minimumWidth">
+						<Integer>46</Integer>
+					</field>
+					<field name="resizable">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="hidden">
+						<Boolean>false</Boolean>
+					</field>
+				</svnColumnInfo>
+				<svnColumnInfo>
+					<field name="columnID">
+						<String>size</String>
+					</field>
+					<field name="preferredWidth">
+						<Integer>70</Integer>
+					</field>
+					<field name="minimumWidth">
+						<Integer>50</Integer>
+					</field>
+					<field name="resizable">
+						<Boolean>true</Boolean>
+					</field>
+					<field name="hidden">
+						<Boolean>false</Boolean>
+					</field>
+				</svnColumnInfo>
+				<svnColumnInfo>
+					<field name="columnID">
+						<String>type</String>
+					</field>
+					<field name="preferredWidth">
+						<Integer>80</Integer>
+					</field>
+					<field name="minimumWidth">
+						<Integer>40</Integer>
+					</field>
+					<field name="resizable">
+						<Boolean>true</Boolean>
+					</field>
+					<field name="hidden">
+						<Boolean>false</Boolean>
+					</field>
+				</svnColumnInfo>
+			</svnColumnInfo-array>
+		</entry>
+		<entry>
+			<String>window.location.&lt;oXygen/> XML Editor</String>
+			<String>100,100</String>
+		</entry>
+		<entry>
+			<String>window.state.&lt;oXygen/> XML Editor</String>
+			<Integer>6</Integer>
+		</entry>
+	</map>
+</serialized>

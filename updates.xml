@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xt:extensions xmlns:xt="http://www.oxygenxml.com/ns/extension"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.oxygenxml.com/ns/extension http://www.oxygenxml.com/ns/extension/extensions.xsd">
+
+    <!-- rackbook -->
+    <xt:extension id="rackbook">
+        <xt:location href="rackbook-1.0.0.jar"/>
+        <xt:version>1.0.0</xt:version>
+        <xt:oxy_version>14.0+</xt:oxy_version>
+        <xt:type>framework</xt:type>
+        <xt:author>Rackspace Hosting</xt:author>
+        <xt:name>rackbook</xt:name>
+        <xt:description xmlns="http://www.w3.org/1999/xhtml">
+            <p>Framework for creating Rackspace and OpenStack DocBook XML documents. 
+                See the Rackspace/OpenStack <a href="http://docs.rackspace.com/writers-guide/content/ch_preface.html">Writers' Guide</a> 
+               for more information. </p>
+        </xt:description>
+        <xt:license>                 
+            <xi:include href="apache.txt" parse="text" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        </xt:license>
+    </xt:extension>
+    
+    <!-- wadl-tools updates -->
+    <xt:extension id="wadl-tools">
+        <xt:location href="wadl-tools-1.0.0.jar"/>
+        <xt:version>1.0.0</xt:version>
+        <xt:oxy_version>14.0+</xt:oxy_version>
+        <xt:type>framework</xt:type>
+        <xt:author>Rackspace Hosting</xt:author>
+        <xt:name>wadl-tools</xt:name>
+        <xt:description xmlns="http://www.w3.org/1999/xhtml">
+            <p>Framework for creating WADL files for Rackspace and OpenStack APIs. 
+                See <a href="http://docs.rackspace.com/writers-guide/content/ch_preface.html">Writers' Guide</a> 
+               for more information.</p>
+        </xt:description>
+        <xt:license>
+            <xi:include href="apache.txt" parse="text" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        </xt:license>
+    </xt:extension>
+    
+    <xt:extension id="wadl-tools">
+        <xt:location href="wadl-tools-oxygen-framework-1.0.1.jar"/>
+        <xt:version>1.0.1</xt:version>
+        <xt:oxy_version>14.0+</xt:oxy_version>
+        <xt:type>framework</xt:type>
+        <xt:author>Rackspace Hosting</xt:author>
+        <xt:name>wadl-tools</xt:name>
+        <xt:description xmlns="http://www.w3.org/1999/xhtml">
+            <p>Framework for creating WADL files for Rackspace and OpenStack APIs. 
+                See <a href="http://docs.rackspace.com/writers-guide/content/ch_preface.html">Writers' Guide</a> 
+                for more information.</p>
+        </xt:description>
+        <xt:license>
+            <xi:include href="apache.txt" parse="text" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        </xt:license>
+    </xt:extension>
+    
+</xt:extensions>

@@ -7,6 +7,10 @@
     <groupId>com.rackspace.cloud.api</groupId>
     <artifactId>rackbook-framework</artifactId>
     <version>1.0.0</version>
+
+    <properties>
+      <rackspace.keystore>/path/to/keystore.ImportKey</rackspace.keystore>
+    </properties>
     
     <build>
         <plugins>
@@ -27,7 +31,7 @@
                                     jar="target/rackbook-${project.version}.jar"
                                     alias="docs"
                                     storepass="password"
-                                    keystore="/Users/david.cramer/rax/certificates/keystore.ImportKey"
+                                    keystore="${rackspace.keystore}"
                                     />
                             </target>
                         </configuration>
